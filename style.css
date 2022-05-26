@@ -1,0 +1,168 @@
+body{
+    /* box-sizing:border-box; */
+    /* margin: 0; */
+    /* padding: 0; */
+    background-image: url('bodyBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    overflow-x: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.navbar{
+    /* background-color: rgb(44, 43, 43); */
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.navbar-nav > .nav-item > .nav-link{
+    border-right: 1px solid grey;
+    color: #ffffff;
+    padding: 0px 50px;
+    list-style: none!important;
+}
+.sliderImage{
+    text-align: end;
+    line-height: 100px;
+    font-size: 20px;
+}
+
+marquee > a{
+    text-decoration: none;
+    border-left: 2px solid;
+    padding: 5px;
+}
+
+.servicesColor1{
+    /* background-color:rgb(99, 96, 96); */
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px;
+    transition: all 0.5s ease-in;
+}
+.servicesColor1:hover{
+    background-color: #68cff8;
+    color: black;
+    font-size: 13px;
+}
+.servicesColor2{
+    /* background-color:rgb(44, 43, 43); */
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px;
+    transition: all 0.5s ease-out;
+}
+.servicesColor2:hover{
+    /* background-color: #cecccc; */
+    background-color: #68cff8;
+
+    color: black;
+    font-size: 13px;
+}
+
+.bordeService{
+}
+
+.styleFooter {
+    /* background-color:rgb(99, 96, 96); */
+    background-color: transparent;
+}
+
+.AppColor1{
+    /* background-color:rgb(99, 96, 96); */
+    background-color: #68cff8;
+    color: #ffffff; 
+    border-radius: 5px;
+}
+
+.borderRad{
+    border-radius: 5px;
+    border: 1px solid #68cff8;
+
+}
+
+.AppForm > .formInput {
+    line-height: 40px;
+    margin-bottom:10px;
+    border: 1px solid #68cff8;
+    outline: none;
+    background-color: transparent;
+    /* color: #ffffff; */
+}
+.bgform{
+    /* background-color: #f4f4f4; */
+    background-color: transparent;
+    /* color: #ffffff; */
+}
+
+.footertext a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.5s ease-in;
+}
+.footertext a:hover{
+    font-size: 20px;
+}
+
+.applicationSection{
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.applicationSection::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .applicationSection::-webkit-scrollbar-track {
+    background: #ffffff;        /* color of the tracking area */
+  }
+  
+  .applicationSection::-webkit-scrollbar-thumb {
+    background-color: #68cff8;    /* color of the scroll thumb */
+    /* border-radius: 20px;       roundness of the scroll thumb */
+    /* border: 3px solid #ffffff;  creates padding around scroll thumb */
+  }
+
+.applicationSection li {
+    list-style-type:square;
+}
+
+.jumboColor{
+    /* background-color: #8ca4e0; */
+    background-color: transparent;
+}
+
+/* testomonials css */
+.home-demo .item {
+    /* background: #8ca4e0; */
+    background-color: #68cff8;
+    border-radius: 5px;
+    padding:15px;
+    font-style: italic;
+
+}
+.home-demo h2 {
+    color: #000000;
+    /* text-align: center; */
+    /* padding: 5rem 0; */
+    margin: 0;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.borderBottom{
+    background-color: #000000;
+    width: 30px;
+    border: 1px solid;
+}
+/* ////////////////// */
+
+@media screen and (max-width:768px) {
+    .navbar-nav > .nav-item > .nav-link{
+        line-height: 40px;
+        text-align: center;
+        list-style: none;
+    }       
+}
