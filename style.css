@@ -2,9 +2,10 @@ body{
     /* box-sizing:border-box; */
     /* margin: 0; */
     /* padding: 0; */
-    background-image: url('bodyBg.jpg');
+/*     background-image: url('bodyBg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+        background-image: linear-gradient(to bottom, rgb(13, 13, 139) , rgb(47, 47, 151));
     color: #ffffff;
     overflow-x: hidden;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,6 +33,7 @@ marquee > a{
     text-decoration: none;
     border-left: 2px solid;
     padding: 5px;
+    color:#ffffff
 }
 
 .servicesColor1{
